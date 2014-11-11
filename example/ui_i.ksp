@@ -1,0 +1,22 @@
+{/*
+	Defines a label given its NAME and size W, H and sets its
+	content to the VALUE of the given variable.
+*/}
+#define LABEL( NAME, W, H, VALUE ) \
+	declare ui_label NAME ( W, H ) @@@\
+	set_text( NAME, VALUE )
+
+#ifdef ON_INIT
+
+	declare ui_button $hit_me
+	LABEL( $num_hits_value, 1, 1, $num_hits )
+
+#else
+
+on ui_control ( $hit_me )
+	$hit_me := 0
+	call hit
+	set_text( $num_hits_value, $num_hits )
+end on
+
+#endif

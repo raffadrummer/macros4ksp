@@ -1,0 +1,11 @@
+on init
+#define ON_INIT
+
+#include "model_i.ksp"
+#include "ui_i.ksp"
+
+#undef ON_INIT
+end on
+
+#include "model_i.ksp"
+#include "ui_i.ksp"

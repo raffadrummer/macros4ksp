@@ -1,0 +1,11 @@
+#ifdef ON_INIT
+
+	declare $num_hits := 0
+
+#else
+
+function hit
+	inc( $num_hits )
+end function
+
+#endif
