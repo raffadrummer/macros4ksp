@@ -120,4 +120,4 @@ we will invoce the toolchain that transoforms such three files in the
 `main.txt` file corresponding to the final KSP script.
 
 
-[![Analytics](https://ga-beacon.appspot.com/UA-49277456-5/macros4ksp?pixel)](https://github.com/igrigorik/ga-beacon)
+![Analytics](https://ga-beacon.appspot.com/UA-49277456-5/macros4ksp?pixel)
