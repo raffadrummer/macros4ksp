@@ -1,8 +1,7 @@
 # Macros 4 KSP
 
 This repository contains a simple *macro system* for
-"[Kontakt](http://www.native-
-instruments.com/en/products/komplete/samplers/kontakt-5/) Scripting Language"
+"[Kontakt](http://www.native-instruments.com/en/products/komplete/samplers/kontakt-5/) Scripting Language"
 scripts.
 
 The purpose of a *macro system* is to make code cleaner and simpler by defining
@@ -119,5 +118,6 @@ Finally, by calling
 
 we will invoce the toolchain that transoforms such three files in the
 `main.txt` file corresponding to the final KSP script.
+
 
 [![Analytics](https://ga-beacon.appspot.com/UA-49277456-5/macros4ksp?pixel)](https://github.com/igrigorik/ga-beacon)
